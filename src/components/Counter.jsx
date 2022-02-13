@@ -23,7 +23,7 @@ export default function Counter() {
       <button className={style.button} onClick={() => handleMult(2)}>
         Double
       </button>
-      <button className={style.button} onClick={() => handleClick(0)}>
+      <button className={style.button} onClick={() => handleMult(0)}>
         Reset
       </button>
     </div>
